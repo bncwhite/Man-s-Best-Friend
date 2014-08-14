@@ -10,4 +10,12 @@
 
 @interface BWViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *myImageView;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *breedLabel;
+@property (strong, nonatomic) NSMutableArray *myDogs;
+@property (nonatomic) int randomIndex;
+
+- (IBAction)newDogBarButtonItemPressed:(UIBarButtonItem *)sender;
+
 @end

@@ -21,6 +21,13 @@
 		1C0BB004199D1EB9009D2F3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0BAFE6199D1EB9009D2F3D /* UIKit.framework */; };
 		1C0BB00C199D1EB9009D2F3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C0BB00A199D1EB9009D2F3D /* InfoPlist.strings */; };
 		1C0BB00E199D1EB9009D2F3D /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0BB00D199D1EB9009D2F3D /* Man_s_Best_FriendTests.m */; };
+		1C0BB019199D2189009D2F3D /* BWDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0BB018199D2189009D2F3D /* BWDog.m */; };
+		1C0BB021199D472F009D2F3D /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C0BB01C199D472F009D2F3D /* Bo.jpg */; };
+		1C0BB022199D472F009D2F3D /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C0BB01D199D472F009D2F3D /* BorderCollie.jpg */; };
+		1C0BB023199D472F009D2F3D /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C0BB01E199D472F009D2F3D /* ItalianGreyhound.jpg */; };
+		1C0BB024199D472F009D2F3D /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C0BB01F199D472F009D2F3D /* JRT.jpg */; };
+		1C0BB025199D472F009D2F3D /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C0BB020199D472F009D2F3D /* St.Bernard.JPG */; };
+		1C0BB028199D592B009D2F3D /* BWPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0BB027199D592B009D2F3D /* BWPuppy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		1C0BB009199D1EB9009D2F3D /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		1C0BB00B199D1EB9009D2F3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C0BB00D199D1EB9009D2F3D /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		1C0BB017199D2189009D2F3D /* BWDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWDog.h; path = ../BWDog.h; sourceTree = "<group>"; };
+		1C0BB018199D2189009D2F3D /* BWDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWDog.m; path = ../BWDog.m; sourceTree = "<group>"; };
+		1C0BB01C199D472F009D2F3D /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		1C0BB01D199D472F009D2F3D /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		1C0BB01E199D472F009D2F3D /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		1C0BB01F199D472F009D2F3D /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		1C0BB020199D472F009D2F3D /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
+		1C0BB026199D592B009D2F3D /* BWPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWPuppy.h; sourceTree = "<group>"; };
+		1C0BB027199D592B009D2F3D /* BWPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWPuppy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +130,13 @@
 			children = (
 				1C0BAFF1199D1EB9009D2F3D /* BWAppDelegate.h */,
 				1C0BAFF2199D1EB9009D2F3D /* BWAppDelegate.m */,
-				1C0BAFF4199D1EB9009D2F3D /* Main.storyboard */,
 				1C0BAFF7199D1EB9009D2F3D /* BWViewController.h */,
 				1C0BAFF8199D1EB9009D2F3D /* BWViewController.m */,
+				1C0BB017199D2189009D2F3D /* BWDog.h */,
+				1C0BB018199D2189009D2F3D /* BWDog.m */,
+				1C0BB026199D592B009D2F3D /* BWPuppy.h */,
+				1C0BB027199D592B009D2F3D /* BWPuppy.m */,
+				1C0BAFF4199D1EB9009D2F3D /* Main.storyboard */,
 				1C0BAFFA199D1EB9009D2F3D /* Images.xcassets */,
 				1C0BAFE9199D1EB9009D2F3D /* Supporting Files */,
 			);
@@ -126,6 +146,11 @@
 		1C0BAFE9199D1EB9009D2F3D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1C0BB01C199D472F009D2F3D /* Bo.jpg */,
+				1C0BB01D199D472F009D2F3D /* BorderCollie.jpg */,
+				1C0BB01E199D472F009D2F3D /* ItalianGreyhound.jpg */,
+				1C0BB01F199D472F009D2F3D /* JRT.jpg */,
+				1C0BB020199D472F009D2F3D /* St.Bernard.JPG */,
 				1C0BAFEA199D1EB9009D2F3D /* Man's Best Friend-Info.plist */,
 				1C0BAFEB199D1EB9009D2F3D /* InfoPlist.strings */,
 				1C0BAFEE199D1EB9009D2F3D /* main.m */,
@@ -229,8 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0BB025199D472F009D2F3D /* St.Bernard.JPG in Resources */,
+				1C0BB023199D472F009D2F3D /* ItalianGreyhound.jpg in Resources */,
 				1C0BAFFB199D1EB9009D2F3D /* Images.xcassets in Resources */,
+				1C0BB024199D472F009D2F3D /* JRT.jpg in Resources */,
 				1C0BAFED199D1EB9009D2F3D /* InfoPlist.strings in Resources */,
+				1C0BB022199D472F009D2F3D /* BorderCollie.jpg in Resources */,
+				1C0BB021199D472F009D2F3D /* Bo.jpg in Resources */,
 				1C0BAFF6199D1EB9009D2F3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C0BAFF9199D1EB9009D2F3D /* BWViewController.m in Sources */,
+				1C0BB019199D2189009D2F3D /* BWDog.m in Sources */,
 				1C0BAFEF199D1EB9009D2F3D /* main.m in Sources */,
+				1C0BB028199D592B009D2F3D /* BWPuppy.m in Sources */,
 				1C0BAFF3199D1EB9009D2F3D /* BWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
